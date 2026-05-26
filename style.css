@@ -2,16 +2,26 @@ body{
     font-family: "Amethysta", serif;
     font-weight: 400;
     font-style: normal;
+    margin:0;
+    padding: 0;
 }
 
 .main{  
     display : flex;
     flex-direction: row;
     width: 100vw;
+    height: 100vh;
     
 }
 
-.left, .right{
+.left{
+    background-image: url(./images/ryan-tasto-7WokJZUYFSo-unsplash.jpg);
+    width: 35vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.right{
     display: flex;
     justify-content: center;
     width : 50vw;
