@@ -1,5 +1,5 @@
 body{
-    font-family: "Amethysta", serif;
+    font-family: "Amethysta", sans-serif;
     font-weight: 400;
     font-style: normal;
     margin:0;
@@ -31,7 +31,7 @@ body{
 }
 
 .first{
-    height: 33vh;
+    height: 25vh;
     background-color: #fafafa;
     display: flex;
     justify-content: flex-start;
@@ -43,6 +43,14 @@ body{
     height: 33vh;
     background-color: white;
 }
+
+.main-form-div{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
 
 .third{
     height: 33vh;
