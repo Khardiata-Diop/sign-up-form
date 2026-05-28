@@ -27,10 +27,12 @@ body{
     display: flex;
     flex-direction: column;
     width : 50vw;
+    
 }
 
 .first{
     height: 33vh;
+    background-color: #fafafa;
 }
 .second{
     height: 33vh;
