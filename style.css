@@ -34,8 +34,10 @@ body{
     height: 33vh;
     background-color: #fafafa;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-end;
+    margin-left: 5%;
+    margin-bottom: 5%;
 }
 .second{
     height: 33vh;
