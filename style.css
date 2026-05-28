@@ -26,13 +26,16 @@ body{
 .right{
     display: flex;
     flex-direction: column;
-    width : 50vw;
+    width : 65vw;
     
 }
 
 .first{
     height: 33vh;
     background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 .second{
     height: 33vh;
