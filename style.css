@@ -20,6 +20,9 @@ body {
   background-size: cover;
   color: white;
   /*font-family: "Amethysta"; */
+  display: flex;
+  justify-content: center;
+  align-items: start;
 }
 
 .right {
@@ -93,4 +96,17 @@ button {
   border-radius: 5px;
   border: 1px solid #596d48;
   padding: 10px 25px 10px 25px;
+}
+
+.left-banner img {
+  height: auto;
+  width: 190px;
+}
+
+.left-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(128, 128, 128, 0.5);
+  margin-top: 150px;
 }
